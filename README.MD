@@ -1,3 +1,5 @@
+**Create a Twitter bot for a beginner**
+
 There are many blogs instructing how to build and host a twitter bot. However, most of them are not complete.
 For example, some of them  tell us how to type python code to connect to Twitter (via the package Tweepy), but don't tell us how to let the code executes itselft automatically. Some codes on github are old and not applicable anymore.
 
