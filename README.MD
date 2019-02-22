@@ -1,4 +1,4 @@
-**Create a Twitter bot for a beginner**
+**Create a Twitter bot for a beginner (like me)**
 
 There are many blogs instructing how to build and host a twitter bot. However, most of them are not complete.
 For example, some of them  tell us how to type python code to connect to Twitter (via the package Tweepy), but don't tell us how to let the code executes itselft automatically. Some codes on github are old and not applicable anymore.
@@ -31,3 +31,7 @@ Some remarks along the lines of the above blog:
 * ```heroku run worker``` It will run the file specified in the file ```Procfile``` 
 
 * To add a scheduler (i.e. automatic), you have to add a credit card in Heroku.
+
+More advanced:
+
+* To avoid putting local_settings.py which contains sensitive information in public, one can use "from os import environ", etc. If you search enough on google, you may know how to do it.
