@@ -3,13 +3,16 @@
 There are many blogs instructing how to build and host a twitter bot. However, most of them are not complete.
 For example, some of them  tell us how to type python code to connect to Twitter (via the package Tweepy), but don't tell us how to let the code executes itselft automatically. Some codes on github are old and not applicable anymore.
 
-I see that the following website gives the clearest instruction 
+After many readings, I found that the following website gives the clearest instruction 
 https://tutorials.botsfloor.com/how-to-code-a-simple-twitter-bot-for-complete-beginners-36e37231e67d
+
+A curious beginner who looks at```heroku_ebooks``` may ask what the main codes are. This is the **main reason** I provide this repository which delete out all unneccesary codes.
 
 Some remarks along the lines of the above blog:
 * Twitter does not allow to update two consecutive same statuses.
 * We have to install Heroku CLI (and Git, Postgres) in order to use Heroku from command line (cmd).
 * I did it in a PC instead of a Mac like the author in the above website.
+
 
 * Don't need to configure Vars in Heroku website (if you know what it is). All configuration (keys, etc) is saved in ```local_setings.py```
 * Open command line (cmd), in the folder containing your code, type ```heroku login```. Follow the instruction to login.
@@ -27,3 +30,4 @@ Some remarks along the lines of the above blog:
 
 * ```heroku run worker``` It will run the file specified in the file ```Procfile``` 
 
+* To add a scheduler (i.e. automatic), you have to add a credit card in Heroku.
