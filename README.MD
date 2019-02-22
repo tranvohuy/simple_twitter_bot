@@ -11,8 +11,8 @@ Some remarks along the lines of the above blog:
 * Open command line (cmd), in the folder containing your code, type "heroku login". Follow the instruction to login.
 * Then "git init" will create a folder ".git" (hidden)
 
-* "git add.": tell Git to add files
-* "git commit -am "add new stuffs": see here https://stackoverflow.com/questions/2745076/what-are-the-differences-between-git-commit-and-git-push
+* ```git add .```: tell Git to add files
+* ```git commit -am "add new stuffs"```: see here https://stackoverflow.com/questions/2745076/what-are-the-differences-between-git-commit-and-git-push
 
 * "heroku create": Heroku will create a new app with strange name. You can check it in https://dashboard.heroku.com/apps. For information how to use the command, see https://devcenter.heroku.com/articles/heroku-cli-commands
 
