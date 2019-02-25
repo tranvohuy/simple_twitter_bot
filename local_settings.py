@@ -3,11 +3,11 @@
 
 Consumer_key='' #fill in by yourself
 
-Consumer_secret = ''#Your Consumer Secret Key set in Heroku config
+Consumer_secret = ''
 
-Access_token = ''#Your Twitter API Access Token Key set in Heroku config
+Access_token = ''
 
-Access_token_secret = '' #Your Access Token Secret set in Heroku config
+Access_token_secret = '' 
 
 #There are several versions of this file on the internet. 
 #For example:
