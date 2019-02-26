@@ -3,8 +3,8 @@
 There are many blogs instructing how to build and host a twitter bot. However, most of them are not complete.
 For example, some of them  tell us how to type python code to connect to Twitter (via the package Tweepy), but don't tell us how to let the code executes itselft automatically. Some codes on github are old and not applicable anymore.
 
-After many readings, I found that the following website gives the clearest instruction 
-https://tutorials.botsfloor.com/how-to-code-a-simple-twitter-bot-for-complete-beginners-36e37231e67d
+After many readings, I found that [this website](https://tutorials.botsfloor.com/how-to-code-a-simple-twitter-bot-for-complete-beginners-36e37231e67d) gives the clearest instruction 
+
 
 A curious beginner who looks at```heroku_ebooks``` may ask what the main codes are. This is the **main reason** I provide this repository which delete out all unneccesary codes.
 
