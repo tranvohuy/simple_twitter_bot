@@ -14,7 +14,7 @@ Some remarks along the lines of the above blog:
 * I did it in a PC instead of a Mac like the author in the above website.
 
 
-* Don't need to configure Vars in Heroku website (if you know what it is). All configuration (keys, etc) is saved in ```local_setings.py```
+* Don't need to ```Settings```-```Config Vars``` in Heroku dashboard. All configurations (keys, values, etc) are  saved in ```local_setings.py```
 * Open command line (cmd), in the folder containing your code, type ```heroku login```. Follow the instruction to login.
 * Then ```git init``` will create a folder ```.git``` (hidden)
 
