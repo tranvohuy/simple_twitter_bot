@@ -1,4 +1,3 @@
-import sys
 import tweepy
 import datetime
 
