@@ -37,3 +37,6 @@ More advanced:
 * To avoid putting local_settings.py which contains sensitive information in public, one can use "from os import environ", etc. If you search enough on google, you may know how to do it.
 
 * If you don't have Heroku CLI installed (in work office for example), you can still run it by going to the top-left corner of the dashboard app, click to ```More```-```Run console```. Then you can tpye heroku command line. For example: type ```worker```
+* The file ```requirements.text``` is to tell Heroku to install python libraries that are neccessary for the code. For example, BeautifulSoup, pandas, etc.
+
+* The file ```Procfile``` is to tell Heroku the main .py file.
