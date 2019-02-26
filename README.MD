@@ -35,3 +35,5 @@ Some remarks along the lines of the above blog:
 More advanced:
 
 * To avoid putting local_settings.py which contains sensitive information in public, one can use "from os import environ", etc. If you search enough on google, you may know how to do it.
+
+* If you don't have Heroku CLI installed (in work office for example), you can still run it by going to the top-left corner of the dashboard app, click to ```More```-```Run console```. Then you can tpye heroku command line. For example: type ```worker```
