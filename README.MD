@@ -14,7 +14,7 @@ Some remarks along the lines of the above blog:
 * I did it in a PC instead of a Mac like the author in the above website.
 
 
-* Don't need to ```Settings```-```Config Vars``` in Heroku dashboard. All configurations ([keys, values,](https://developer.twitter.com/en/apps/) etc) are  saved in ```local_setings.py```
+* Don't need to ```Settings```-```Config Vars``` in Heroku dashboard. All configurations ([keys, values,](https://developer.twitter.com/en/apps/) etc) are  saved in [```local_setings.py```](/local_settings.py)
 * Open command line (cmd), in the folder containing your code, type ```heroku login```. Follow the instruction to login.
 * Then ```git init``` will create a folder ```.git``` (hidden)
 
@@ -28,7 +28,7 @@ Some remarks along the lines of the above blog:
 
 * ```git push heroku master``` the repository has a "fake" name "heroku". Git push everything to Heroku server. You can change the name to "whatever", then type ```git push whatever```. See more at https://devcenter.heroku.com/articles/git
 
-* ```heroku run worker``` It will run the file specified in the file ```Procfile``` 
+* ```heroku run worker``` It will run the file specified in the file [```Procfile```](/Procfile) 
 
 * To add a scheduler (i.e. automatic), you have to add a credit card in Heroku.
 
@@ -37,6 +37,6 @@ More advanced:
 * To avoid putting local_settings.py which contains sensitive information in public, one can use "from os import environ", etc. If you search enough on google, you may know how to do it.
 
 * If you don't have Heroku CLI installed (in work office for example), you can still run it by going to the top-left corner of the dashboard app, click to ```More```-```Run console```. Then you can tpye heroku command line. For example: type ```worker```
-* The file ```requirements.text``` is to tell Heroku to install python libraries that are neccessary for the code. For example, BeautifulSoup, pandas, etc.
+* The file [```requirements.txt```](/requirements.txt) is to tell Heroku to install python libraries that are neccessary for the code. For example, BeautifulSoup, pandas, etc.
 
-* The file ```Procfile``` is to tell Heroku the main .py file.
+* The file [```Procfile```](/Procfile) is to tell Heroku the main .py file.
